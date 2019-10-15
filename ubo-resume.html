@@ -25,24 +25,24 @@
 		<section>
 			<img src="photo.jpg" alt="">
 		</section>
-		<section>
-                <h1 id="fontName">MAKHLOUF Mohamed</h1>
-			<p class="fonalex">23 ans</p>
-			<p class="fonalex">Ingenieur des systémes d'information</p>
-			<div id="adresse">
-				Rue des Archive 2 <br />
-                Resedence universitaire de Kergoat F 125<br />
-                29200, Brest<br />
-				Tél. : + 33 6 11 58 25 44<br />
+		<section temscope itemtype="http://microformats.org/profile/hcard">
+                <h1 id="fontName" itemprop="name">MAKHLOUF Mohamed</h1>
+			<p class="fonalex" itemprop="age">23 ans</p>
+			<p class="fonalex" itemprop="metier">Ingenieur des systémes d'information</p>
+			<div id="adresse" itemprop="address" content="brest, France">
+				<span itemprop="street-address" > des Archive 2 </span><br />
+                <span itemprop="locality"> universitaire de Kergoat F 125</span><br />
+                <span itemprop="postal-code">29200, Brest</span><br />
+				<span itemprop="url" rel="phone">Tél. : + 33 6 11 58 25 44</span><br />
 				Mél. : <a href="">mohamed_makhlouf@outlook.fr</a><br />
-				Page web : <a href="http://www.bernardyann.fr">www.MakhloufMohamed.fr</a>
+				Page web : <a href="http://www.bernardyann.fr" itemprop="url" rel="me">www.MakhloufMohamed.fr</a>
 			</div>
         </header>
-        <section id="section2">
+        <section id="section2" temscope itemtype="http://schema.org/Article">
                 <article id="article-section">
-                    <h1>Formation</h1>
+                    <h1 >Formation</h1>
                 </article>
-                <div class="info">
+                <div class="info" itemprop="formation"  content="Ingenieur, Master, Licence, developpement, Sustèmes, Informations, Ingenerie"> 
                     <section ><span id="font">2019-2020</span class="fontogofiano{"> Master DOSI-UBO </section>
                     <section ><span id="font">2018-2019</span> Master Ingenerie des systeme d'information ISI-UCAM</section>
                     <section ><span id="font">2017</span> Formation Métier Amideast </section>
@@ -51,7 +51,7 @@
                     <section ><span id="font">2014</span> Baccalauréat Pc (lycée EL Marsa ,Laayoune )</section>
                 </div>
             </section>
-            <section id="section2">
+            <section id="section2" itemprop="experience"  content="Stage, projet, developpeur">
                     <article id="article-section">
                         <h1>Expérience</h1>
                     </article>
@@ -65,7 +65,7 @@
                         
                     </div>
                 </section>
-                <section id="section2">
+                <section id="section2" itemprop="Competences"  content="Competences, java, jee, php, laravel, symfony, html">
                     <article id="article-section2">
                         <h1>Competences Informatiques</h1>
                     </article>
