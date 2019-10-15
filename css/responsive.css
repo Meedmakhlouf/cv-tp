@@ -1,0 +1,11 @@
+@media only screen and(max-widh: 740px){
+#wrapper{ background: #f77}
+}
+
+@media only screen and(max-widh: 570px){
+    #wrapper{ background: #7f7}
+    }
+
+    @media only screen and(max-widh: 480px){
+        #wrapper{ background: #77f}
+        }

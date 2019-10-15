@@ -1,0 +1,172 @@
+html, button, input, select, textarea{
+
+	color:#444;
+}
+html{
+
+	font-size: 1em;
+	line-height: 1.4;
+}
+
+
+
+
+
+img{
+	border: solid;
+    float: right;
+    width: 100px;
+    padding-top: 20px;
+	padding-right: 30px;
+	border-radius: 3px;
+	box-shadow: rgba(0,0,0,10);
+	
+}
+
+#fontName{
+
+	font-family: abril-fatface, serif;	
+
+}
+
+.fonalex{
+	font-family: alex-brush, cursive;
+	font-weight : bolder;
+	font-size: 20px;
+}
+.fontogofiano{
+	font-family: aguafina-script, cursive;
+}
+body {
+	width: 70%;
+	margin-left: 15%;
+	}
+section h1 {
+	text-align: center;
+
+}
+section p {
+	text-align: center;
+}
+#header {
+	padding: 10px;
+	background: #e8eff7;
+	border-top: 10px solid #688cd8;
+	border-bottom: 10px solid #688cd8;
+	margin-top: 30pt;
+}
+#section2 {
+	
+	border-top: 10px solid #688cd8;
+	border-bottom: 10px solid #688cd8;
+	margin-top: 30pt;
+	
+	
+}
+#experience{
+	display: block;
+font-weight: bold;
+}
+#liste{
+	margin-left: 100px;
+}
+
+
+article {
+	
+	background: #e8eff7;
+	vertical-align: middle;
+	padding: 0px;
+	margin-top: -20px;
+	
+}
+#article-section h1 {
+	color: #385ca8;
+	text-transform: uppercase; 
+	padding: 5px;
+	margin-left:  -800px;
+}
+#article-section2 h1 {
+	color: #385ca8;
+	text-transform: uppercase; 
+	padding: 5px;
+	margin-left:  -600px;
+}
+.info {
+	margin-bottom: 10px;
+}
+/*.formation {
+	margin: 5px 0px 5px 0px;
+}*/
+#adresse {
+	font-family: monospace;
+	text-align: left;
+}
+
+#font {
+	width: 100px;
+	display: block;
+	float: left;
+	font-weight: bold;
+}
+
+#section3{
+	border-top: 2px solid #688cd8;
+	border-bottom: 2px solid #688cd8;
+	margin-top: 30pt;
+	text-align: center;
+	letter-spacing: 3px;
+	text-decoration: none;
+	font-size: 10px;
+}
+table {
+     width: 100%;  
+}
+
+
+tr, td {
+    border-bottom: 1px solid #ddd;
+    height: 20px;
+    align
+}
+
+
+
+.item ul li{
+	margin-right: 20px;
+	float: left;
+	font-size:14px;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-linkedin {
+	background: #007bb5;
+	color: white;
+  }
